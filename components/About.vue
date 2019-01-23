@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" >
     <div class="main__wrapper">
       <h1 class="main__header">Обо мне</h1>
       <p class="main__description">Меня зовут Петр, я занимаюсь веб-разработкой и 
@@ -9,10 +9,17 @@
   </div>
 </template>
 
+<script>
+ 
+export default {
+}
+</script>
+
 <style lang="scss" scoped>
 
+
 .main {
-  height: 60rem;
+  height: 50rem;
   display: grid;
   justify-content: center;
   padding-top: 10rem;

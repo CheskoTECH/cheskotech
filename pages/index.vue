@@ -2,7 +2,8 @@
   <div class="main">
     <Header />
     <FirstSection />
-    <About />
+    <About v-scroll-reveal.reset="{delay: 450}"/>
+    <Social />
   </div>
 </template>
 
@@ -11,17 +12,20 @@ import Header from '~/layouts/Header.vue'
 
 import FirstSection from '~/components/FirstSection.vue'
 import About from '~/components/About.vue'
+import Social from '~/components/Social.vue'
 
 export default {
   components: {
     FirstSection,
     Header,
-    About
+    About,
+    Social
   }
 }
 </script>
 
 <style>
+
 .main {
   /* min-height: 100vh; */
 }
