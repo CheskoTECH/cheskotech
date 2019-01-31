@@ -18,7 +18,17 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   plugins: [
-    { src: '~/plugins/vue-scroll-reveal.js', ssr: false }
+    { src: '~/plugins/vue-scroll-reveal.js', ssr: false },
+    { src: '~plugins/vueGallerySlideshow.js', ssr: false },
+    // require('autoprefixer')
+  ],
+  modules: [
+    [ 
+      'nuxt-imagemin', 
+        {
+          context: 'static'
+        }
+    ]
   ],
   /*
   ** Build configuration
@@ -27,6 +37,11 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    postcss: [
+      require('autoprefixer')({
+        browsers: ['> 5%']
+      })
+    ],
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({

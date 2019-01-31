@@ -3,7 +3,10 @@
     <Header />
     <FirstSection />
     <About v-scroll-reveal.reset="{delay: 450}"/>
+    <Portfolio />
     <Social />
+    <EMail />
+    <Footer />
   </div>
 </template>
 
@@ -13,13 +16,20 @@ import Header from '~/layouts/Header.vue'
 import FirstSection from '~/components/FirstSection.vue'
 import About from '~/components/About.vue'
 import Social from '~/components/Social.vue'
+import Portfolio from '~/components/Portfolio.vue'
+import EMail from '~/components/Email.vue'
+
+import Footer from '~/layouts/Footer.vue'
 
 export default {
   components: {
     FirstSection,
     Header,
     About,
-    Social
+    Social,
+    Portfolio,
+    EMail,
+    Footer
   }
 }
 </script>
