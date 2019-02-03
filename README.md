@@ -18,6 +18,12 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
+# Deploy List
+$ git add .
+$ git commit -m "<message>"
+$ git push -u origin master
+$ npm run generate
+$ npm run deploy
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
