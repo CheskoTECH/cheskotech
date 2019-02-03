@@ -32,7 +32,7 @@ module.exports = {
     ]
   ],
   router: {
-    base: '/CheskoTECH/'
+    base: '/cheskotech/'
   },
   /*
   ** Build configuration
