@@ -107,6 +107,10 @@ export default {
     justify-content: center;
     font-size: 5rem;
     margin-bottom: 1rem;
+
+    @media only screen and (max-width: 430px) {
+      font-size: 4.5rem;
+    }
   }
 
   &__subheader {
@@ -122,6 +126,11 @@ export default {
     grid-template-columns: repeat(4, minmax(20rem, 1fr));
     height: 5rem;
 
+    @media only screen and (max-width: 500px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 6rem);
+    }
+
     p {
       display: grid;
       justify-self: center;
@@ -130,6 +139,10 @@ export default {
       font-size: 2rem;
       font-weight: 700;
       // padding: 1rem;
+
+      @media only screen and (max-width: 500px) {
+        font-size: 2.5rem;
+      }
     }
   }
 }

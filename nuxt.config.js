@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'My personal website' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Neuton:800|Nosifer|Open+Sans|Raleway:800,900|Roboto+Slab|Stardos+Stencil:700' }
     ]
   },
   /*
@@ -30,6 +31,9 @@ module.exports = {
         }
     ]
   ],
+  router: {
+    base: '/cheskotech/'
+  },
   /*
   ** Build configuration
   */

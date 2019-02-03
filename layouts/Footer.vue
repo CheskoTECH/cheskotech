@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
-    <p class="footer__title">2019 &copy; Chesko.TECH</p>
-    <a href="#" class="footer__cta">Оставить заявку</a>
+    <p class="footer__title">2019 &copy; Chesko TECHNOLOGIES</p>
+    <a href="https://goo.gl/forms/Iw6m2Fkt25UoMjen2" class="footer__cta">Оставить заявку</a>
   </footer>
 </template>
 
@@ -17,10 +17,11 @@
     font-family: 'Raleway', sans-serif;
     display: grid;
     align-self: center;
-    margin-left: 2rem;
-    font-size: 2rem;
+    margin-left: 3rem;
+    font-size: 1.7rem;
     font-weight: 800;
     color: #fff;
+    text-transform: uppercase;
   }
 
   &__cta {
@@ -31,6 +32,10 @@
     text-align: center;
 
     margin-right: 10rem;
+
+    @media only screen and (max-width: 800px) {
+      margin-right: 3rem;
+    }
 
     border-radius: 1rem;
     height: 7rem;
@@ -51,7 +56,7 @@
     &:hover {
       color: #fff;
       background-color: #444C5E;
-      border: 2px solid #F6554D;
+      border: .2rem solid #F6554D;
     }
   }
 }

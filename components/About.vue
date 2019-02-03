@@ -24,6 +24,10 @@ export default {
   justify-content: center;
   padding-top: 10rem;
 
+  @media only screen and (max-width: 500px) {
+    height: 60vh;
+  }
+
   &__wrapper {
     width: 55rem;
   }

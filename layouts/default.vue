@@ -17,8 +17,6 @@ export default {
 
 <style lang="scss">
 
-@import url('https://fonts.googleapis.com/css?family=Neuton:800|Nosifer|Open+Sans|Raleway:800,900|Roboto+Slab|Stardos+Stencil:700');
-
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em;   // 1200px
 $bp-large: 62.5em;   // 1000px

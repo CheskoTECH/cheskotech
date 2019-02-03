@@ -25,12 +25,12 @@ export default {
   data: function() {
     return {
       images: [
-        '/project_1-2.png',
-        '/project_1-1.png',
-        '/project_3-1.png',
-        '/project_3-2.png',
-        '/project_2-1.png',
-        '/project_2-2.png'
+        './project_1-2.png',
+        './project_1-1.png',
+        './project_3-1.png',
+        './project_3-2.png',
+        './project_2-1.png',
+        './project_2-2.png'
       ],
       index: null
     }
@@ -65,6 +65,10 @@ export default {
   &__img {
     width: 40rem;
 
+    @media only screen and (max-width: 500px) {
+      width: 30rem;
+    }
+
     &:hover {
       cursor: pointer;
     }
@@ -72,8 +76,12 @@ export default {
     &-1 {
       position: absolute;
       top: 18%;
-      left: 0;
+      left: -10%;
       transition: all .2s;
+
+      @media only screen and (max-width: 500px) {
+        left: 3%;
+      }
 
       &:hover {
         z-index: 1;
@@ -86,8 +94,12 @@ export default {
     &-2 {
       position: absolute;
       top: 28%;
-      left: 55%;
+      left: 45%;
       transition: all .2s;
+
+      @media only screen and (max-width: 500px) {
+        left: 47%;
+      }
 
       &:hover {
         z-index: 1;
@@ -100,8 +112,13 @@ export default {
     &-3 {
       position: absolute;
       top: 52%;
-      left: 25%;
+      left: 15%;
       transition: all .2s;
+
+      @media only screen and (max-width: 500px) {
+        top: 45%;
+        left: 25%;
+      }
 
       &:hover {
         z-index: 1;

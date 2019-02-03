@@ -31,6 +31,10 @@
   display: grid;
   height: 50rem;
   color: #000;
+
+  @media only screen and (max-width: 500px) {
+    height: 35rem;
+  }
   
   margin-bottom: 5rem;
 
