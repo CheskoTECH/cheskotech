@@ -25,12 +25,12 @@ export default {
   data: function() {
     return {
       images: [
-        './project_1-2.png',
-        './project_1-1.png',
-        './project_3-1.png',
-        './project_3-2.png',
-        './project_2-1.png',
-        './project_2-2.png'
+        '/project_1-2.png',
+        '/project_1-1.png',
+        '/project_3-1.png',
+        '/project_3-2.png',
+        '/project_2-1.png',
+        '/project_2-2.png'
       ],
       index: null
     }
