@@ -39,7 +39,7 @@ module.exports = {
     hashAlgorithm: 'sha256',
     policies: {
       'image-src data': 'chesko.tech' ,
-      content: "font-src 'self' data:; img-src 'self' data:; default-src 'self' https://cheskotech"
+      'default-src': 'https://cheskotech'
     }
   },
   /*
