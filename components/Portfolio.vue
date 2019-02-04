@@ -29,8 +29,8 @@ export default {
         '/project_1-1.png',
         '/project_3-1.png',
         '/project_3-2.png',
-        '/project_2-1.png',
-        '/project_2-2.png'
+        '/project_2-1.PNG',
+        '/project_2-2.PNG'
       ],
       index: null
     }
