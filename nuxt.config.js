@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'My personal website' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:800,900|Roboto+Slab' }
     ]
   },
@@ -33,7 +33,7 @@ module.exports = {
   ],
   router: {
     //base: '/', // for dev
-    base: ''
+    base: '/cheskotech/'
   },
   /*
   ** Build configuration
