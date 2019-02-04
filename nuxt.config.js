@@ -33,7 +33,7 @@ module.exports = {
   ],
   router: {
     //base: '/', // for dev
-    base: '/chesko.tech/' // for deploy, need to change on chesko.tech
+    base: '/' // for deploy, need to change on chesko.tech
   },
   /*
   ** Build configuration
