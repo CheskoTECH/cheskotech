@@ -33,7 +33,7 @@ module.exports = {
   ],
   router: {
     //base: '/', // for dev
-    base: '/'
+    base: ''
   },
   /*
   ** Build configuration
