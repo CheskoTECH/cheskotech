@@ -7,10 +7,10 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My personal website' }
+      { hid: 'description', name: 'description', content: 'My personal website' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:800,900|Roboto+Slab' }
     ]
   },
@@ -34,6 +34,12 @@ module.exports = {
   router: {
     //base: '/', // for dev
     base: ''
+  },
+  csp: {
+    hashAlgorithm: 'sha256',
+    policies: {
+      'image-src data': 'chesko.tech' 
+    }
   },
   /*
   ** Build configuration
