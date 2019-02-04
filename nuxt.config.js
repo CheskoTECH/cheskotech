@@ -38,7 +38,8 @@ module.exports = {
   csp: {
     hashAlgorithm: 'sha256',
     policies: {
-      'image-src data': 'chesko.tech' 
+      'image-src data': 'chesko.tech' ,
+      content="font-src 'self' data:; img-src 'self' data:; default-src 'self' https://cheskotech"
     }
   },
   /*
